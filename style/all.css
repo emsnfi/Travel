@@ -1,0 +1,283 @@
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.search {
+
+    background-image: url("../img/Hero.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* position: relative; */
+
+}
+
+.search h1 {
+    font-family: PingFangTC-Regular;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 3.89px;
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+
+.search {
+    /* position: absolute; */
+    margin-bottom: 40px;
+
+}
+
+.search select {
+    background: rgba(255, 255, 255, 0.7);
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    width: 452px;
+    padding: 17px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hot-spot {
+
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    width: 600px;
+    padding: 20px 100px 28px 20px;
+    margin: 0 auto 50px auto;
+
+}
+
+.hot-spot h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.hot-item {
+    display: flex;
+    font-family: SFNSDisplay;
+    margin-top: 30px;
+}
+
+.hot-spot a {
+    color: white;
+    border-radius: 5px;
+    padding: 8px 30px;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.hot-item a:hover {
+    cursor: pointer;
+
+
+}
+
+.hot-spot .purple {
+    background: #8A82CC;
+}
+
+.hot-spot .orange {
+    background: #FFA782;
+}
+
+.hot-spot .yellow {
+    background: #F5D005;
+}
+
+.hot-spot .blue {
+    background: #559AC8;
+}
+
+/* travel view */
+.viewContent {
+    position: relative;
+    margin: 125px 0px 50px 0px;
+
+}
+
+.viewContent hr {
+    border: 1px dashed #559AC8;
+    /* border: 1px solid #559AC8; */
+    margin-bottom: 76px;
+
+}
+
+.viewContent .fa-sort-down {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    color: #559AC8;
+    border: 2px solid #559AC8;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 10px 8px 15px 8px;
+
+}
+
+
+.viewContent h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #8A82CC;
+    margin-bottom: 24px;
+}
+
+.viewContentList {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+
+}
+
+.viewContentList li {
+    position: relative;
+    margin-bottom: 10px;
+    height: -webkit-fill-available;
+}
+
+.viewContentList .list_header {
+
+    height: 152px;
+    padding: 25px;
+    background-position: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.list_header h4 {
+    font-size: 24px;
+
+}
+
+.list_header h5 {
+    font-size: 16px;
+}
+
+.openTime i {
+    color: #8A82CC;
+}
+
+.add i {
+    color: #FFA782;
+}
+
+.tel i {
+    color: #559AC8;
+}
+
+.tel a {
+    text-decoration: none;
+    color: black;
+}
+
+.tel a:hover {
+    color: blue;
+}
+
+.list_tag i {
+    color: #F5D005;
+}
+
+.list_body {
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    padding: 20px 10px;
+    width: 450px;
+}
+
+.list_body li {
+    margin: 5px 0px 12px 30px;
+    text-align: left;
+
+}
+
+.list_tag {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+
+/* page Selection */
+.pageSelect a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    border: 1px solid #559AC8;
+    color: #559AC8;
+}
+
+.pageSelect ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.pageSelect a:hover {
+    background-color: #559AC8;
+    color: white;
+}
+
+.pageSelect .active {
+    background-color: #559AC8;
+    color: white;
+}
+
+.pageSelect {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* footer */
+.footer {
+
+    padding: 30px;
+    margin: 0 auto;
+    display: block;
+    /* font-family: AppleSystemUIFont; */
+    font-size: 14px;
+    background: #559AC8;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer span {
+    font-size: 14px;
+    color: #FFD366;
+}
+
+/* gotop */
+.goTop {
+    position: fixed;
+    padding: 10px;
+    bottom: 30px;
+    right: 30px;
+    color: white;
+    background-color: #559AC8;
+}
+
+.d-none {
+    display: none;
+}
+
+.mr {
+    margin-right: 10px;
+}
